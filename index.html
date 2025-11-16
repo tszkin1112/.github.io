@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <!-- 适配移动端 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的个人网站</title>
+    <!-- 引入 CSS 样式文件 -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- 导航栏 -->
+    <nav>
+        <div class="logo">我的主页</div>
+        <ul>
+            <li><a href="#about">关于我</a></li>
+            <li><a href="#hobby">我的爱好</a></li>
+            <li><a href="#contact">联系我</a></li>
+        </ul>
+    </nav>
+
+    <!-- 首页横幅 -->
+    <header class="banner">
+        <h1>你好，我是 [你的名字]</h1>
+        <p>欢迎访问我的个人网站！</p>
+        <button id="btn">点击打招呼</button>
+    </header>
+
+    <!-- 关于我 section -->
+    <section id="about" class="about">
+        <h2>关于我</h2>
+        <div class="about-content">
+            <img src="https://picsum.photos/300/300" alt="个人头像" class="avatar">
+            <p>大家好！我是 [你的名字]，喜欢 [你的职业/兴趣，如：编程、设计、旅行]。<br>
+               这是我用 VS Code 制作的第一个个人网站，记录我的学习和生活～</p>
+        </div>
+    </section>
+
+    <!-- 我的爱好 section -->
+    <section id="hobby" class="hobby">
+        <h2>我的爱好</h2>
+        <div class="hobby-list">
+            <div class="hobby-item">编程</div>
+            <div class="hobby-item">看电影</div>
+            <div class="hobby-item">运动</div>
+        </div>
+    </section>
+
+    <!-- 联系我 section -->
+    <section id="contact" class="contact">
+        <h2>联系我</h2>
+        <p>邮箱：your-email@example.com</p>
+        <p>微信：your-wechat</p>
+    </section>
+
+    <!-- 引入 JavaScript 交互文件 -->
+    <script src="script.js"></script>
+</body>
+</html>
